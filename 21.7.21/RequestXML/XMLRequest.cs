@@ -81,7 +81,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionListofCompanyCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
                
           
@@ -109,7 +109,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionLedgerCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -199,7 +199,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionSalesVoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
            
             return lVocuherResponseAfterUDFRemove;
@@ -287,7 +287,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionPurchaseVoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -377,7 +377,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionDebitNoteVoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -471,7 +471,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionCreditNoteVoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -593,7 +593,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionJournalInvoiceVoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -714,7 +714,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionJournalReceiptVoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -835,7 +835,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionRecipetvoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
         
             return lVocuherResponseAfterUDFRemove;
@@ -957,7 +957,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionPaymentvoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -978,7 +978,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyLicenseInfoXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
            
             return lVocuherResponse;
@@ -998,7 +998,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyActiveCompanyXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponse;
@@ -1080,7 +1080,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyAlterMasterXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;
@@ -1103,7 +1103,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyStatisticsReportXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponse;
@@ -1125,7 +1125,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyBalanceReportXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponse;
@@ -1147,7 +1147,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyTrialBalanceXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponse;
@@ -1173,7 +1173,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyStatisticXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponse;
@@ -1221,7 +1221,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.FunctionTallyCompanyVoucherXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponse;
@@ -1401,7 +1401,7 @@ namespace CB_TallyConnector.XMLRequestConnection
             catch (Exception ex)
             {
                 ErrorCodeForRequestModelEnum errorCodeFunc = ErrorCodeForRequestModelEnum.Functiontpo_RecipetvoucherCollectionXMLRequest;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
             return lVocuherResponseAfterUDFRemove;

@@ -118,7 +118,7 @@ namespace CB_TallyConnector.Configuration
             catch (Exception ex)
             {
                 ErrorCodeForApplicationConfigurationEnum errorCodeFunc = ErrorCodeForApplicationConfigurationEnum.FunctionGetConfigDetail;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
             }
 
         }
