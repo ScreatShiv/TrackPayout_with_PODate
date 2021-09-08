@@ -42,7 +42,7 @@ namespace CB_TallyConnector.EnDeCryption
             catch (System.Exception ex)
             {
                 ErrorcodeforEnCryptFile errorCodeFunc = ErrorcodeforEnCryptFile.FunctionctorEnCryptFile;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
 
@@ -71,7 +71,7 @@ namespace CB_TallyConnector.EnDeCryption
             catch (System.Exception ex)
             {
                 ErrorcodeforEnCryptFile errorCodeFunc = ErrorcodeforEnCryptFile.FunctionEncryptFile;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
         }

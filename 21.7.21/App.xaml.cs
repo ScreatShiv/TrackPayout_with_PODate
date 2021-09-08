@@ -29,7 +29,8 @@ namespace CB_TallyConnector
         }
         protected override void OnStartup(StartupEventArgs e)
         {
-            DeCryptFile DecryptFile = new DeCryptFile();
+            
+            //DecryptFile = new DeCryptFile();
 
             const string appName = "Track_Payout";
 

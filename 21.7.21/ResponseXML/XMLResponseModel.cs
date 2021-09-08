@@ -91,7 +91,7 @@ namespace CB_TallyConnector.ResponseModel
             {
                 
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionCompanyXMLResponsefromTallyService;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -258,7 +258,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionCreditNoteVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
 
@@ -426,7 +426,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionSalesVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
 
@@ -595,7 +595,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionPurchaesVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
 
@@ -784,7 +784,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionDebitNoteVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
 
@@ -977,7 +977,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionJournalInvoiceVoucherXMLResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -1150,7 +1150,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionJournalReceiptVoucherXMLResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -1334,7 +1334,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionReceiptVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -1530,7 +1530,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionPaymentVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -1578,7 +1578,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyVoucherLedgerClosingBalance;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -1830,7 +1830,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex )
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyActiveCompanyXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -2004,7 +2004,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyCustomerMasterXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -2046,7 +2046,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyStatictisReportXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
             return TallyData;
         }
@@ -2084,7 +2084,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyBalanceSheetReportXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -2265,7 +2265,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyBalanceSheetReportXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -2365,7 +2365,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyStatictisXMLReponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -2428,7 +2428,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyCompanyVoucherXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -2892,7 +2892,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionTallyCustomerMasterXMLResponse;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;
@@ -3090,7 +3090,7 @@ namespace CB_TallyConnector.ResponseModel
             catch (Exception ex)
             {
                 ErrorCodeForResponseModelEnum errorCodeFunc = ErrorCodeForResponseModelEnum.FunctionReceiptVoucherXMPResponseFromTally;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return TallyData;

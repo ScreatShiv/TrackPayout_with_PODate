@@ -107,7 +107,7 @@ namespace CB_TallyConnector.Connection
             {
 
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionTallyServerRequestAPI;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
                 //logger.Log("Error Code 103 : Tally application is not responding." + "\n" + "Restart the Tally Application and Tally Connector again.");
 
             }
@@ -147,7 +147,7 @@ namespace CB_TallyConnector.Connection
             {
                 //  logger.Log("Erro Code 101 : Clear Balance Web Server is not responding. Please try after few minutes");
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionClearBalanceWebServerRequestAPI;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -191,7 +191,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionGetguidCBdatabasewithlastId;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -236,7 +236,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionUpdateguidCBdatabasewithcurrentId;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -278,7 +278,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionCheckGUIDClearBalanceWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -323,7 +323,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionSignUpOnClearBalanceWebServerWithOTP;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
             return LResult;
 
@@ -366,7 +366,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionUpdateMACClearBalanceWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -409,7 +409,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionSignUpOnClearBalanceWebServerwithGuidvalidation;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -450,7 +450,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionSignUpOnClearBalanceWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -491,7 +491,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionUpdateEmailOnClearBalanceWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -538,7 +538,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionClearBlanceSendReqst;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -580,7 +580,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionClearBlanceSendReqstLedger;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -624,7 +624,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionClearBlanceSendReqstVoucher;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -671,7 +671,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionTallySendReqst;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -719,7 +719,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionJSONstringResponseforWebServerAgainstPostedJSONStringForLedger;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return lCBResponse;
@@ -759,7 +759,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionJSONstringResponseforWebServerAgainstPostedJSONStringForLedgerClosingBalance;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return lCBResponse;
@@ -933,7 +933,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionJSONstringResponseforWebServerAgainstPostedJSONStringForVoucher;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return lCBResponse;
@@ -973,7 +973,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionJSONstringReponseforStatictisReport;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return JSONdoc;
@@ -1011,7 +1011,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionJSONstringReponseforBalanceSheetReport;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return JSONdoc;
@@ -1057,7 +1057,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionSignUpOnTrackpayoutWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -1098,7 +1098,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionSignUpOnTrackpayoutWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -1146,7 +1146,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionCheckGUIDClearBalanceWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -1197,7 +1197,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctiongetlastDetailTrackPayoutWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -1247,7 +1247,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctiongetlastDetailTrackPayoutWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -1300,7 +1300,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionCheckGUIDClearBalanceWebServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -1418,7 +1418,7 @@ namespace CB_TallyConnector.Connection
                 StreamWriter writer = File.AppendText(this.FilePath);
                 writer.WriteLine("\r\nLog Entry-------------------------------------");
                 writer.WriteLine("{0} {1} {2}", DateTime.Now.ToLongDateString(), DateTime.Now.ToLongTimeString(), this.FilePath);
-                writer.WriteLine("Customer ", this.newledgerCount + "Invoice " + this.salesvoucherCount + " Receipt " + this.receiptvouchercount);
+                writer.WriteLine("{0}" , "Customer " + this.newledgerCount + " Invoice " + this.salesvoucherCount + " Receipt " + this.receiptvouchercount);
                 writer.WriteLine("--------------------------------------------------");
                 writer.Close();
 
@@ -1499,7 +1499,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionTPO_JSONstringResponseforWebServerAgainstPostedJSONString;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
                 return lCBResponse = false;
 
             }
@@ -1543,7 +1543,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionCustomer_Track_payout_POST_SendReqst;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -1587,7 +1587,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionInvoice_Track_payout_POST_SendReqst;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;
@@ -1631,7 +1631,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForAPIConnectionEnum errorCodeFunc = ErrorCodeForAPIConnectionEnum.FunctionInvoice_Track_payout_POST_SendReqst;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return LResult;

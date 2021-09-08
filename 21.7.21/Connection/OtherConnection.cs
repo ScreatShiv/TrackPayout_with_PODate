@@ -72,7 +72,7 @@ namespace CB_TallyConnector.Connection
             {
 
                 ErrorCodeForOtherConnectionEnum errorCodeFunc = ErrorCodeForOtherConnectionEnum.FunctionAsyncTaskforInternetConnectionWorking;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
            
@@ -100,7 +100,7 @@ namespace CB_TallyConnector.Connection
             {
 
                 ErrorCodeForOtherConnectionEnum errorCodeFunc = ErrorCodeForOtherConnectionEnum.FunctionAsyncTaskforTallyConnectionWorking;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
            
@@ -127,7 +127,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForOtherConnectionEnum errorCodeFunc = ErrorCodeForOtherConnectionEnum.FunctionTallyLicenseInfo;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -151,7 +151,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForOtherConnectionEnum errorCodeFunc = ErrorCodeForOtherConnectionEnum.FunctionTallyConnection;
-                logger.Log(errorCodeFunc + " : " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
             return ltallyservicereps;
@@ -174,7 +174,7 @@ namespace CB_TallyConnector.Connection
             {
 
                 ErrorCodeForOtherConnectionEnum errorCodeFunc = ErrorCodeForOtherConnectionEnum.FunctionInternetConnection;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -201,7 +201,7 @@ namespace CB_TallyConnector.Connection
             catch (Exception ex)
             {
                 ErrorCodeForOtherConnectionEnum errorCodeFunc = ErrorCodeForOtherConnectionEnum.FunctionGetMACAddress;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
           
             

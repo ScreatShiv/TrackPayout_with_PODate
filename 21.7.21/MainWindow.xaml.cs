@@ -38,7 +38,7 @@ namespace CB_TallyConnector
     public partial class MainWindow : Window
     {
 
-        DeCryptFile DecryptFile = new DeCryptFile();
+       // DeCryptFile DecryptFile = new DeCryptFile();
         OtherConnection otherConnection = new OtherConnection();
 
         ApplicationConfigration applicationConfigration = new ApplicationConfigration();
@@ -240,7 +240,7 @@ namespace CB_TallyConnector
             {
 
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionSaveConfigurationbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
         }
@@ -566,7 +566,7 @@ namespace CB_TallyConnector
             catch (ApplicationException ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionWindowsLoad;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
         }
 
@@ -577,18 +577,18 @@ namespace CB_TallyConnector
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            try
-            {
+            //try
+            //{
               
-                EnCryptFile enCrypt = new EnCryptFile();
+            //    EnCryptFile enCrypt = new EnCryptFile();
                 
-            }
-            catch (ApplicationException ex)
-            {
+            //}
+            //catch (ApplicationException ex)
+            //{
 
-                ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionWindow_Closed;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
-            }
+            //    ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionWindow_Closed;
+            //    logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
+            //}
             
             
         }
@@ -628,7 +628,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionSignUpbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -785,7 +785,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionSubmitsignupdetailbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
         }
 
@@ -847,7 +847,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionChoosecompanycombobox_DropDownOpened;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
         }
 
@@ -885,7 +885,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionChoosecompanycombobox_DropDownOpened;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
         }
 
@@ -1068,7 +1068,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionverifyOTPbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
         }
@@ -1095,7 +1095,7 @@ namespace CB_TallyConnector
             {
 
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionAsyncdatabasecreationonClearBalanceServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
             return null;
         }
@@ -1111,7 +1111,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionAsyncUpdateEmailonClearBalanceServer;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
             return null;
         }
@@ -1175,7 +1175,7 @@ namespace CB_TallyConnector
             {
 
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionresendOTPbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
 
@@ -1270,7 +1270,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionShowConfigureSettingonpannel;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
         }
@@ -1345,7 +1345,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctiondispatcherTimerforAutoSync_tick;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
          
@@ -1695,7 +1695,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionAsyncPostingJSONString;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
             
         }
@@ -1852,7 +1852,7 @@ namespace CB_TallyConnector
             catch (ApplicationException ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionAsyncStartSyncWithCB;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return false;
@@ -1961,7 +1961,7 @@ namespace CB_TallyConnector
             catch (ApplicationException ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionAsyncStartSyncWithCB;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
             return false;
@@ -2250,7 +2250,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionUpdateEmailButton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
             }
         }
@@ -2330,7 +2330,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionUpdateCompanyinitialComboxbox_DropDownClosed;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
            
 
@@ -2483,7 +2483,7 @@ namespace CB_TallyConnector
             catch (Exception ex)
             {
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionUpdateEmailIDverifyOTPbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
             }
 
 
@@ -2540,7 +2540,7 @@ namespace CB_TallyConnector
             {
 
                 ErrorcodeforMainWindow errorCodeFunc = ErrorcodeforMainWindow.FunctionUpdateEmailIDresendOTPbutton_Click;
-                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 7, 7) + ", " + ex.Message);
+                logger.Log(errorCodeFunc + " : " + ex.StackTrace.Substring(ex.StackTrace.Length - 9, 9) + ", " + ex.Message);
 
 
             }
