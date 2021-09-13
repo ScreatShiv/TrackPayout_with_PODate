@@ -1034,7 +1034,7 @@ namespace CB_TallyConnector.Connection
             {
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/company/register_company";
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/company/register_company";
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 600000;
@@ -1075,7 +1075,7 @@ namespace CB_TallyConnector.Connection
             {
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/company/set_last_details";
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/company/set_last_details";
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 600000;
@@ -1123,7 +1123,7 @@ namespace CB_TallyConnector.Connection
 
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/company/get_companyid_by_guid?company_gu_id=" + GUID;
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/company/get_companyid_by_guid?company_gu_id=" + GUID;
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "GET";
                 httpWebRequest.Timeout = 600000;
@@ -1173,7 +1173,7 @@ namespace CB_TallyConnector.Connection
 
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                string lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/company/get_last_details?company_id=" + companyid;
+                string lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/company/get_last_details?company_id=" + companyid;
 
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "GET";
@@ -1223,7 +1223,7 @@ namespace CB_TallyConnector.Connection
 
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                string lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/company/is_valid?company_id=" + companyid;
+                string lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/company/is_valid?company_id=" + companyid;
 
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "GET";
@@ -1277,7 +1277,7 @@ namespace CB_TallyConnector.Connection
             {
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/company/set_last_details";
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/company/set_last_details";
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 600000;
@@ -1411,7 +1411,7 @@ namespace CB_TallyConnector.Connection
 
 
                 this.CurrentDirectory = newDirectory;
-                this.FileName = "errorlog.txt";
+                this.FileName = "Synclog.txt";
                 this.FilePath = this.CurrentDirectory + "/" + this.FileName;
 
 
@@ -1520,7 +1520,7 @@ namespace CB_TallyConnector.Connection
                 //lCompanyinitial = COMPANYINITIALS;
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/customer/store";
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/customer/store";
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 600000;
@@ -1564,7 +1564,7 @@ namespace CB_TallyConnector.Connection
                 //lCompanyinitial = COMPANYINITIALS;
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/invoice/store";
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/invoice/store";
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 600000;
@@ -1608,7 +1608,7 @@ namespace CB_TallyConnector.Connection
                 //lCompanyinitial = COMPANYINITIALS;
                 string lCBIPAddress = this.IPAddress;// appConfiguration.CBIPAddress;
 
-                String lClearBalanceHost = "https://trackpayout.contisofttechno.com:8001/api/tally/utility/invoice/credit_notes";
+                String lClearBalanceHost = "http://trackpayout.contisofttechno.com:8012/api/tally/utility/invoice/credit_notes";
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(lClearBalanceHost);
                 httpWebRequest.Method = "POST";
                 httpWebRequest.Timeout = 600000;
